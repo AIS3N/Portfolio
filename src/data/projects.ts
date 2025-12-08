@@ -41,9 +41,9 @@ export const projects: Project[] = [
   },
   {
     id: "cobra-ml-basketball",
-    title: "Création d'un MLP (Multi-Layer Perceptron) from Scratch en C++. Exploitation du modèle en Python et interface utilisateur en Django.", 
+    title: "Prédiction des performances en NBA d'un joueur NCAA.", 
     description:
-      "Projet ayant pour but de déterminer si les statisques d'un joueur de NCAA suffisent à prédire sa performance en NBA",
+      "Projet ayant pour but de déterminer si les statisques d'un joueur de NCAA suffisent à prédire sa performance en NBA. Création d'un MLP (Multi-Layer Perceptron) from Scratch en C++. Exploitation du modèle en Python et interface utilisateur en Django.",
     stack: ["Python", "C++", "Machine Learning", "Matplotlib", "Django"],
     href: "",
     repo: "https://github.com/AIS3N/CobraML/",
