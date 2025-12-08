@@ -52,7 +52,7 @@ export default function Home() {
               </div>
               <div className="mt-8 flex items-center justify-center gap-6 text-sm">
                 {current.href && (
-                  <Link href={current.href} className="text-white underline underline-offset-4 hover:text-zinc-100">
+                  <Link href={current.href} target="_blank" className="text-white underline underline-offset-4 hover:text-zinc-100">
                     Voir le projet
                   </Link>
                 )}

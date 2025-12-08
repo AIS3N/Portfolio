@@ -91,4 +91,13 @@ export const projects: Project[] = [
     repo: "https://github.com/AIS3N/911BarberShop",
     image: "/bg5.jpg",
   },
+  {
+    id: "soundfocusttv-extension",
+    title: "SoundFocusTTV - Extension Firefox/Chrome",
+    description: "Mute automatiquement les streams Twitch sauf celui que vous regardez activement. Fini de jongler entre les onglets pour couper et réactiver le son.",
+    stack: ["JavaScript", "Browser Extension", "HTML/CSS"],
+    href: "https://addons.mozilla.org/fr/firefox/addon/soundfocusttv/",
+    repo: "https://github.com/AIS3N/SoundFocusTTV",
+    image: "/bg2.jpg",
+  },
 ];
