@@ -1,3 +1,5 @@
+import { Mail, Github, Linkedin } from "lucide-react";
+
 export default function Header() {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
@@ -9,9 +11,18 @@ export default function Header() {
             <span className="hidden sm:inline text-white/85 font-sans">Développeur Python</span>
           </div>
           <nav className="flex items-center gap-4 text-sm font-sans">
-            <a href="mailto:votre.email@example.com" className="text-white/90 hover:text-white underline underline-offset-4">demirel.sjc@gmail.com</a>
-            <a href="https://www.linkedin.com/in/demirel-smajovic-537b8713a/" target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-white underline underline-offset-4">LinkedIn</a>
-            <a href="https://github.com/AIS3N/" target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-white underline underline-offset-4">GitHub</a>
+            <a href="mailto:demirel.sjc@gmail.com" className="text-white/90 hover:text-white">
+              <span className="hidden md:inline underline underline-offset-4">demirel.sjc@gmail.com</span>
+              <Mail className="md:hidden h-5 w-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/demirel-smajovic-537b8713a/" target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-white">
+              <span className="hidden md:inline underline underline-offset-4">LinkedIn</span>
+              <Linkedin className="md:hidden h-5 w-5" />
+            </a>
+            <a href="https://github.com/AIS3N/" target="_blank" rel="noopener noreferrer" className="text-white/90 hover:text-white">
+              <span className="hidden md:inline underline underline-offset-4">GitHub</span>
+              <Github className="md:hidden h-5 w-5" />
+            </a>
           </nav>
         </div>
       </div>
