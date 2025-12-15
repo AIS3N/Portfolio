@@ -100,4 +100,13 @@ export const projects: Project[] = [
     repo: "https://github.com/AIS3N/SoundFocusTTV",
     image: "/bg2.jpg",
   },
+  {
+    id: "cv-ats",
+    title: "Générateur de CV ATS",
+    description: "Générateur de CV ATS en PDF. Possibilité d'exporter ou importer en JSON",
+    stack: ["NextJS", "Puppeteer", "JSON"],
+    href: "https://cv-ats-qr75.onrender.com/",
+    repo: "https://github.com/AIS3N/CVATS",
+    image: "/bg3.jpg",
+  },
 ];
